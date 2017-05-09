@@ -2,4 +2,6 @@ language: python
 python:
   - "2.7"
 install: "pip install -r requirements-test.txt"
-script: nosetests tests
+script: nosetests --with-coverage --cover-package=thumbor_rekognition --cover-html tests
+after_success:
+  - coveralls
