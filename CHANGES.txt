@@ -1,5 +1,7 @@
-Change-log for thumbor_rekognition.
+thumbor_rekognition
+-------------------
 
-This file will be added to as part of each release
+0.1.0 / 2017-05-10
+------------------
+- First release.
 
-----
