@@ -48,12 +48,12 @@ AWS Rekognition
 ---------------
 
 Authentication
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 Authentication is handled by botocore, see `Boto3 documentation`_.
 
 Region
-~~~~~
+~~~~~~
 
 To set the region to use Rekognition service, add ``REKOGNITION_REGION``
 to your ``thumbor.conf``. Default is ``us-east-1``.
