@@ -42,7 +42,7 @@ class Detector(BaseDetector):
         """
 
         bio = BytesIO()
-        self.context.modules.engine.image.save(bio, 'JPEG')
+        self.context.modules.engine.image.convert('RGB').save(bio, 'JPEG')
         return bio.getvalue()
 
     def size(self):
