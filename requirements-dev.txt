@@ -1,2 +1,2 @@
 -r requirements.txt
-Pillow==3.4.2
+Pillow==6.2.0
